@@ -108,3 +108,11 @@ For comprehensive guides and API documentation, visit the [Arbitrum SDK Document
 ## License
 
 Arbitrum SDK is released under the [Apache 2.0 License](LICENSE).
+
+---
+
+<div style='text-align: center;'>
+  <a href='https://www.wakeuplabs.io/' target='_blank' rel='noreferrer'>
+    Made with love ❤️ by WakeUp Labs
+  </a>
+</div>
