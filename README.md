@@ -1,9 +1,9 @@
-# Arbitrum SDK
+# Arbitrum Connect SDK
 
 [![npm version](https://badge.fury.io/js/%40arbitrum%2Fsdk.svg)](https://badge.fury.io/js/@arbitrum%2Fsdk.svg)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A TypeScript library for client-side interactions with Arbitrum. The Arbitrum SDK provides essential helper functionality and direct access to underlying smart contract interfaces, enabling developers to build powerful applications on the Arbitrum network.
+A TypeScript library for client-side interactions with Arbitrum. The Arbitrum Connect SDK provides essential helper functionality and direct access to underlying smart contract interfaces, enabling developers to build powerful applications on the Arbitrum network.
 
 > [!IMPORTANT]
 >
@@ -15,7 +15,7 @@ A TypeScript library for client-side interactions with Arbitrum. The Arbitrum SD
 
 ## Table of Contents
 
-- [Arbitrum SDK](#arbitrum-sdk)
+- [Arbitrum Connect SDK](#arbitrum-sdk)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Installation](#installation)
@@ -30,7 +30,7 @@ A TypeScript library for client-side interactions with Arbitrum. The Arbitrum SD
 
 ## Overview
 
-Arbitrum SDK simplifies the process of interacting with Arbitrum chains, offering a robust set of tools for asset bridging and cross-chain messaging.
+Arbitrum Connect SDK simplifies the process of interacting with Arbitrum chains, offering a robust set of tools for asset bridging and cross-chain messaging.
 
 ## Installation
 
@@ -46,7 +46,7 @@ yarn add @arbitrum/sdk
 
 ### Bridging Assets
 
-Arbitrum SDK facilitates the bridging of assets between an Arbitrum chain and its parent chain. Currently supported asset bridgers:
+Arbitrum Connect SDK facilitates the bridging of assets between an Arbitrum chain and its parent chain. Currently supported asset bridgers:
 
 - `EthBridger`: For bridging ETH to and from an Arbitrum chain (L2 or L3)
 - `Erc20Bridger`: For bridging ERC-20 tokens to and from an Arbitrum chain (L2 or L3)
@@ -83,7 +83,7 @@ async function bridgeEth(parentSigner: ethers.Signer, childChainId: number) {
 }
 ```
 
-For more detailed usage examples and API references, please refer to the [Arbitrum SDK documentation](https://docs.arbitrum.io/sdk).
+For more detailed usage examples and API references, please refer to the [Arbitrum Connect SDK documentation](https://docs.arbitrum.io/sdk).
 
 ## Running Integration Tests
 
@@ -103,8 +103,8 @@ For more detailed usage examples and API references, please refer to the [Arbitr
 
 ## Documentation
 
-For comprehensive guides and API documentation, visit the [Arbitrum SDK Documentation](https://docs.arbitrum.io/sdk).
+For comprehensive guides and API documentation, visit the [Arbitrum Connect SDK Documentation](https://docs.arbitrum.io/sdk).
 
 ## License
 
-Arbitrum SDK is released under the [Apache 2.0 License](LICENSE).
+Arbitrum Connect SDK is released under the [Apache 2.0 License](LICENSE).
